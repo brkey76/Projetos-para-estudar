@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #17233d;
+  margin: 0 0 0 30px;
+  cursor: pointer;
+}
+header {
+  margin-top: 20px;
+}
+button {
+  margin: 0 0 0 30px;
+  height: 51px;
+  width: 124px;
+  border-radius: 6px;
+  background-color: #6fbf44;
+  border-color: #4cb538;
+  border: 1px;
+  color: #ffffff;
+  cursor: pointer;
+}
+h1 {
+  font-size: 62px;
+  line-height: 82%;
+  color: #161a49;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+h2 {
+  margin-top: 47px;
+  color: #4b505a;
+  margin-bottom: 55px;
+}
+a {
+  color: #6fbf44;
+  font-size: 16px;
+  width: 112px;
+  font-weight: 500;
+  letter-spacing: 0.5;
+}
+.secao {
+  display: inline-block;
+  margin-left: 85px;
+  width: 493px;
+}
+.photo {
+  width: 595.17822265625px;
+  height: 500px;
+  display: inline-block;
+  margin: 163px 0 0 123px;
+}
+@media screen and (max-width: 900px) {
+  a {
+    display: none;
+  }
+  button {
+    position: relative;
+    left: 60vw;
+  }
+  .photo {
+    width: 312px;
+    height: 288px;
+  }
+  h1 {
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0.6px;
+    text-align: center;
+  }
+}
