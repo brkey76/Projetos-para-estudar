@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de Moedas</title>
+</head>
+
+<body>
+    <nav>
+        <img id="logo" src="./Assets/Logo.png" alt="Logo">
+    </nav>
+    <div class="container">
+        <main>
+                <div class="display up">
+                    <h2 class="text">Conversor de </h1>
+                        <form>
+                        <select class="backgroundSelectInput " id="fromCurrency">
+                            <option value="USD">US$ Dólar Americano</option>
+                            <option value="EUR">€ Euro</option>
+                            <option value="BRL">R$ Real Brasileiro</option>
+                        </select>
+                </div>
+                <div class="display">
+                    <h2 class="text" for="toCurrency">Para:</h2>
+                    <select class="backgroundSelectInput" id="toCurrency">
+                        <option value="USD">US$ Dólar Americano</option>
+                        <option value="EUR">€ Euro</option>
+                        <option value="BRL">R$ Real Brasileiro</option>
+                    </select>
+                </div>
+                <div class="display">
+                    <h2 class="text amount" for="amount">Valor:</h2>
+                    <input class="backgroundSelectInput " type="number" id="amount" placeholder="Digite o valor">
+                </div>
+                <button onclick="converterMoedas()">Converter</button>
+                </form>
+                <div class="moedasValores">
+                    <img id="image-moeda-coverter" src="./Assets/Dolar.png" alt="Moeda Converter">
+                    <p id="Moeda-Converter">0</p>
+                    <p id="Valor-converter">0</p>
+                    <img src="./Assets/Vector.png" alt="seta">
+                    <p id="Moeda-convertida">0</p>
+                    <p id="valor-convertido">0</p>
+                    <img id="imagem-moeda-convertida" src="./Assets/Dolar.png" alt="Moeda Convertida">
+                </div>
+        </main>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
