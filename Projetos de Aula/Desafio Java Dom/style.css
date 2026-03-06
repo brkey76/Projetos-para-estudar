@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto, sans-serif;
+}
+nav {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+}
+body {
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #772fd3;
+}
+main {
+  display: flex;
+  width: 375px;
+  height: 712px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  width: 327px;
+  height: 48px;
+  border-radius: 5px;
+  background: #772fd3;
+  border-width: 0px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.backgroundSelectInput {
+  background-color: #fff;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+}
+.moedasValores {
+  width: 327px;
+  height: 276px;
+  border-radius: 20px;
+  border-width: 1px;
+  border-color: #772fd3;
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.up {
+  margin-top: 45px;
+}
+.display {
+  margin-bottom: 25px;
+}
+.container {
+  display: flex;
+  margin: 0 auto;
+  width: 375px;
+  height: 712px;
+  border-radius: 20px;
+  background-color: #f4f4f4;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+.amount {
+  font-weight: 700;
+}
+#fromCurrency {
+  width: 327px;
+  height: 48px;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: #bbbbbb;
+  cursor: pointer;
+}
+#toCurrency {
+  width: 327px;
+  height: 48px;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: #bbbbbb;
+  cursor: pointer;
+}
+#amount {
+  width: 327px;
+  height: 48px;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: #bbbbbb;
+}
+#logo {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
