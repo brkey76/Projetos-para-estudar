@@ -14,41 +14,42 @@
     </nav>
     <div class="container">
         <main>
-                <div class="display up">
-                    <h2 class="text">Conversor de </h1>
-                        <form>
-                        <select class="backgroundSelectInput " id="fromCurrency">
-                            <option value="USD">US$ Dólar Americano</option>
-                            <option value="EUR">€ Euro</option>
-                            <option value="BRL">R$ Real Brasileiro</option>
-                        </select>
-                </div>
-                <div class="display">
-                    <h2 class="text" for="toCurrency">Para:</h2>
-                    <select class="backgroundSelectInput" id="toCurrency">
+            <div class="display up">
+                <h2 class="text">Conversor de </h1>
+                    <select class="backgroundSelectInput " id="fromCurrency">
+                        <option value="BRL">R$ Real Brasileiro</option>
                         <option value="USD">US$ Dólar Americano</option>
                         <option value="EUR">€ Euro</option>
-                        <option value="BRL">R$ Real Brasileiro</option>
+                        <option value="THB">฿ Bahts Tailandeses</option>
                     </select>
-                </div>
-                <div class="display">
-                    <h2 class="text amount" for="amount">Valor:</h2>
-                    <input class="backgroundSelectInput " type="number" id="amount" placeholder="Digite o valor">
-                </div>
-                <button onclick="converterMoedas()">Converter</button>
-                </form>
-                <div class="moedasValores">
-                    <img id="image-moeda-coverter" src="./Assets/Dolar.png" alt="Moeda Converter">
-                    <p id="Moeda-Converter">0</p>
-                    <p id="Valor-converter">0</p>
-                    <img src="./Assets/Vector.png" alt="seta">
-                    <p id="Moeda-convertida">0</p>
-                    <p id="valor-convertido">0</p>
-                    <img id="imagem-moeda-convertida" src="./Assets/Dolar.png" alt="Moeda Convertida">
-                </div>
+            </div>
+            <div class="display">
+                <h2 class="text" for="toCurrency">Para:</h2>
+                <select class="backgroundSelectInput" id="toCurrency">
+                    <option value="USD">US$ Dólar Americano</option>
+                    <option value="EUR">€ Euro</option>
+                    <option value="BRL">R$ Real Brasileiro</option>
+                    <option value="THB">฿ Bahts Tailandeses</option>
+                </select>
+            </div>
+            <div class="display">
+                <h2 class="text amount" for="amount">Valor:</h2>
+                <input class="backgroundSelectInput " type="number" id="amount" placeholder="Digite o valor">
+            </div>
+            <button onclick="Converter()">Converter</button>
+            <div class="moedasValores">
+                <img id="image-moeda-coverter" src="./Assets/BRL.png" alt="Moeda Converter">
+                <p id="Moeda-Converter">Real</p>
+                <p id="Valor-converter">R$ 0,00</p>
+                <img id="Arrow" src="./Assets/Vector.png" alt="seta">
+                <img id="imagem-moeda-convertida" src="./Assets/USD.png" alt="Moeda Convertida">
+                <p id="Moeda-convertida">Dolar</p>
+                <p id="valor-convertido">US$ 0,00</p>
+
+            </div>
         </main>
     </div>
 </body>
-<script src="script.js"></script>
+<script src="scripts.js"></script>
 
 </html>
